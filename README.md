@@ -48,4 +48,3 @@ int xstrtok(char *codeline, char *controlsymbol, int nsymbol, char parsed[][MAXS
 
 int xstrwtok(char *codeline, char controlsymbol[][MAXSTRINGVALUE], int nsymbol, char parsed[][MAXSTRINGVALUE]);
 >>> Same of xstrtok but with an array of control code string. See main.c for example.
-
